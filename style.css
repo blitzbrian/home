@@ -11,6 +11,7 @@ div.cookieclicker {
     background-size: cover;
   width: 400px;
   height: 250px;
+  background-position: center;
 }
 
 p.cookieclickertext {
