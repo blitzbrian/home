@@ -4,3 +4,8 @@ body {
   background-image: url(background.gif);
   background-size: cover;
 }
+
+div.cookieclicker {
+ margin: 20px; 
+  
+}
