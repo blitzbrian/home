@@ -18,3 +18,17 @@ p.cookieclickertext {
 margin: 10px;
   
 }
+div.platformer {
+ margin: 10px; 
+  background-image: url(platformer.png);
+    background-size: cover;
+  width: 400px;
+  height: 250px;
+  background-position: center;
+}
+
+
+p.platformertext {
+margin: 10px;
+  
+}
