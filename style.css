@@ -32,3 +32,18 @@ p.platformertext {
 margin: 10px;
   
 }
+
+div.RigedRumble {
+ margin: 10px; 
+  background-image: url(RigedRumble.png);
+    background-size: cover;
+  width: 400px;
+  height: 250px;
+  background-position: center;
+}
+
+
+p.RigedRumbletext {
+margin: 10px;
+  
+}
