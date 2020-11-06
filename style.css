@@ -9,10 +9,11 @@ body {
 div {
   margin: 10px; 
   background-size: cover;
-  width: 50%;
-  height: 33%;
+  width: 400px;
+  height: 250px;
   background-position: center;
   border-radius: 25px;
+  transform: translateX(50%)
 }
 
 p {
