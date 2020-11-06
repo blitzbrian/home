@@ -3,8 +3,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
-  item-align: center;
-  text-align: center;
+  align-item: center;
+/*   text-align: center; */
 }
 
 div {
