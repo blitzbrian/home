@@ -2,18 +2,15 @@ body {
  background: #2d2c3e;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: scroll;
+  overflow: auto;
   text-align: center;
 }
 
 img {
   margin: 10px; 
-/*   background-size: cover; */
   width: 400px;
   height: 250px;
-/*   background-position: center; */
   border-radius: 25px;
-/*   transform: translateX(70%) */
  object-fit: cover;
 }
 
@@ -36,11 +33,3 @@ h3 {
  margin: 10px;
  font-family: 'Pacifico', cursive;
 }
-
-/* div.evolgar {
-  background-image: url(https://cdn.glitch.com/fe6dcd2a-d73f-4931-8c94-255bc9341228%2F5346c842-543f-4134-adf8-e0859ee2b7d2.image.png);
-}
-
-div.cot {
-  background-image: url(cot.png);
-} */
