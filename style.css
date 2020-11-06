@@ -4,6 +4,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
   item-align: center;
+  text-align: center;
 }
 
 div {
