@@ -6,14 +6,14 @@ body {
   text-align: center;
 }
 
-div {
+img {
   margin: 10px; 
-  background-size: cover;
+/*   background-size: cover; */
   width: 400px;
   height: 250px;
-  background-position: center;
+/*   background-position: center; */
   border-radius: 25px;
-  transform: translateX(70%)
+/*   transform: translateX(70%) */
 }
 
 p {
@@ -36,10 +36,10 @@ h3 {
  font-family: 'Pacifico', cursive;
 }
 
-div.evolgar {
+/* div.evolgar {
   background-image: url(https://cdn.glitch.com/fe6dcd2a-d73f-4931-8c94-255bc9341228%2F5346c842-543f-4134-adf8-e0859ee2b7d2.image.png);
 }
 
 div.cot {
   background-image: url(cot.png);
-}
+} */
