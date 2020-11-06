@@ -13,16 +13,24 @@ div {
   height: 250px;
   background-position: center;
   border-radius: 25px;
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  top: 50%;
   left: 50%;
   margin: -100px 0 0 -150px;
 }
 
 p {
  margin: 10px; 
+}
+
+h1 {
+ margin: 10px;
+}
+
+h2 {
+ margin: 10px;
+}
+
+h3 {
+ margin: 10px;
 }
 
 div.evolgar {
