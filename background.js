@@ -1,6 +1,6 @@
 function setup () {
   let cnv = createCanvas(window.innerWidth, window.innerHeight);
-  cnv.style("z-index:-1;margin:0;")
+  cnv.style("z-index:-1;margin:0px;display:block;")
 }
 
 function draw () {
