@@ -1,14 +1,14 @@
 let canvas;
 let logo;
 let logos = [];
-let h = Math.max( document.body.scrollHeight, document.body.offsetHeight, 
-                       document.documentElement.clientHeight, document.documentElement.scrollHeight, document.offsetHeight );
+let h;
 
 function preload () {
   logo = loadImage('baliomaker.png')
 }
 
 function setup () {
+  h = Math.max( document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.offsetHeight );
   canvas = createCanvas(window.innerWidth,document.body.scrollHeight);
   canvas.position(0,0);
   canvas.style('z-index:-1;');
