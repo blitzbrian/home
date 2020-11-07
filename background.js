@@ -8,8 +8,8 @@ function preload () {
 }
 
 function setup () {
-  canvas = createCanvas(0,0);
-  canvas.position(document.body.scrollWidth,document.body.scrollHeight);
+  canvas = createCanvas(document.body.scrollWidth,document.body.scrollHeight);
+  canvas.position(0,0);
   canvas.style('z-index:-1;');
   for(let i = 0; i < (document.body.scrollHeight/50); i++) {
     logos[i] = {
