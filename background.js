@@ -11,7 +11,7 @@ function setup () {
   canvas = createCanvas(window.innerWidth, window.innerHeight);
   canvas.position(0,0);
   canvas.style('z-index:-1;');
-  for(let i = 0; i < 10; i++) {
+  for(let i = 0; i < (window.innerHeight/50); i++) {
     logos[i] = {
       x: random(window.innerWidth),
       y: random(-1000 + (window.innerHeight/1.5),-10)
