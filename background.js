@@ -7,6 +7,7 @@ function setup () {
 }
 
 function draw () {
-  background(0,0,0,0);
-//   rect(0,0,50,50,25)
+//   background(0,0,0,0);
+  rectMode(CENTER);
+  rect(mouseX,mouseY,50,50,25);
 }
