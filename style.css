@@ -41,3 +41,9 @@ h3 {
   text-shadow: 0px 10px 8px black;
   font-family: 'Pacifico', cursive;
 }
+
+.p5Canvas {
+  margin:0px;
+  display:absolute;
+  z-index:-1;
+}
