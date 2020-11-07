@@ -31,7 +31,7 @@ function draw () {
     logos.splice(i,1);
     logos.push({
       x: random(window.innerWidth),
-      y: random(0,h)
+      y: random(~h+1,-10)
     });
   }
    }
