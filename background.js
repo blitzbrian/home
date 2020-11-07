@@ -8,5 +8,5 @@ function setup () {
 
 function draw () {
   background(0,0,0,0);
-  rect(0,0,50,50,25)
+//   rect(0,0,50,50,25)
 }
