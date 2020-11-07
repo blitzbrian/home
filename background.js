@@ -37,3 +37,7 @@ function draw () {
    }
    pop();
 }
+
+function windowResized() {
+  resizeCanvas(window.innerWidth, h);
+}
