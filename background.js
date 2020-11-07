@@ -12,8 +12,8 @@ function setup () {
 }
 
 function draw () {
-  background(0,0,0,0);
+  background('#2d2c3e');
   fill(10);
   rect(mouseX-25,mouseY-25,50,50,25);
-  image(logo,mouseX-25,mouseY-25,50,50)
+  image(logo,mouseX-25,mouseY-25,50,50);
 }
