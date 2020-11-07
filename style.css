@@ -42,8 +42,7 @@ h3 {
   font-family: 'Pacifico', cursive;
 }
 
-.p5Canvas {
-  margin:0px;
-  display:absolute;
-  z-index:-1;
+canvas {
+  position: relative;
+  z-index: -3 !important;
 }
