@@ -21,7 +21,8 @@ function setup () {
     logos.push({
       x: random(window.innerWidth),
       y: 0
-    logos.splice(1,1)
+    });
+    logos.splice(1,1);
   }, 1000)
 }
 
