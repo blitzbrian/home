@@ -36,3 +36,11 @@ function draw () {
    }
    pop();
 }
+
+window.onresize = function() {
+  var w = window.innerWidth;
+  var h = window.innerHeight;  
+  canvas.size(w,h);
+  width = w;
+  height = h;
+};
