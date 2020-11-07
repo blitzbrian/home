@@ -28,13 +28,13 @@ function setup () {
 
 function draw () {
   background('#2d2c3e');
-  push();
-  for(let i = 0; i < logos.length; i++) {
-    if(logos[i].y < window.innerHeight) {
-    image(logo,logos[i].x,logos[i].y,50,50);
-    logos[i].y++;
-  }
-  pop();
+  if(logos[i].y < window.innerHeight) {
+    push();
+    for(let i = 0; i < logos.length; i++) {
+      image(logo,logos[i].x,logos[i].y,50,50);
+      logos[i].y++;
+    }
+    pop();
   } else {
     logos.splice(i,1)
   }
