@@ -45,4 +45,5 @@ h3 {
 canvas {
   position: relative;
   z-index: -3 !important;
+  top: 0%;
 }
