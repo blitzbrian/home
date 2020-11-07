@@ -36,11 +36,3 @@ function draw () {
    }
    pop();
 }
-
-window.onresize = function() {
-  var w = document.body.scrollWidth;
-  var h = document.body.scrollHeight;  
-  canvas.size(w,h);
-  width = w;
-  height = h;
-};
