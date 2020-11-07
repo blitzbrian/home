@@ -8,8 +8,8 @@ function preload () {
 }
 
 function setup () {
-  h = Math.max( document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.offsetHeight );
-  canvas = createCanvas(window.innerWidth,document.body.scrollHeight);
+  h = Math.max( document.body.scrollHeight, window.innerHeight);
+  canvas = createCanvas(window.innerWidth,h);
   canvas.position(0,0);
   canvas.style('z-index:-1;');
   for(let i = 0; i < (h/50); i++) {
