@@ -22,26 +22,26 @@ p {
   margin: 10px; 
   text-shadow: 0px 10px 8px black;
   font-family: 'Pacifico', cursive;
+  pointer-events: none;
 }
 
 h1 {
   margin: 10px;
   text-shadow: 0px 10px 8px black;
   font-family: 'Pacifico', cursive;
+  pointer-events: none;
 }
 
 h2 {
   margin: 10px;
   text-shadow: 0px 10px 8px black;
   font-family: 'Pacifico', cursive;
+  pointer-events: none;
 }
 
 h3 {
   margin: 10px;
   text-shadow: 0px 10px 8px black;
   font-family: 'Pacifico', cursive;
-}
-
-.welcome {
-   pointer-events: none;
+  pointer-events: none;
 }
