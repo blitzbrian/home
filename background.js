@@ -24,9 +24,8 @@ function setup () {
 function draw () {
   background('#2d2c3e');
   for(let i = 0; i < logo.length; i++) {
-    clogo = logos[i]
     rotate(clogo.r);
-    image(logo,clogo.x,clogo.y,50,50);
+    image(logo,logos[i].x,logos[i].y,50,50);
     logos[i].y++;
     logos[i].r++;
   }
