@@ -29,10 +29,10 @@ function draw () {
     }
     pop();
   } else {
+    logos.splice(i,1);
     logos.push({
       x: random(window.innerWidth),
       y: -10
     });
-    logos.splice(i,1);
   }
 }
