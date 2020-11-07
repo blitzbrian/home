@@ -19,7 +19,7 @@ function setup () {
       r: random(180)
     }
   }
-  setInterval(function () {logos.push({x: random(window.innerWidth),y: 0,r: random(180)})}. 1000)
+  setInterval(function () {logos.push({x: random(window.innerWidth),y: 0,r: random(180)})}, 1000)
 }
 
 function draw () {
