@@ -17,16 +17,19 @@ img {
 
 p {
  margin: 10px; 
+  text-shadow: 0px 10px 8px black;
  font-family: 'Pacifico', cursive;
 }
 
 h1 {
  margin: 10px;
+ text-shadow: 0px 10px 8px black;
  font-family: 'Pacifico', cursive;
 }
 
 h2 {
  margin: 10px;
+ text-shadow: 0px 10px 8px black;
  font-family: 'Pacifico', cursive;
 }
 
