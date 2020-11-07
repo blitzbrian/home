@@ -17,13 +17,6 @@ function setup () {
       y: -10
     }
   }
-  setInterval(function () {
-    logos.push({
-      x: random(window.innerWidth),
-      y: -10
-    });
-    logos.splice(1,1);
-  }, 1000)
 }
 
 function draw () {
@@ -36,6 +29,10 @@ function draw () {
     }
     pop();
   } else {
-    logos.splice(i,1)
+    logos.push({
+      x: random(window.innerWidth),
+      y: -10
+    });
+    logos.splice(i,1);
   }
 }
