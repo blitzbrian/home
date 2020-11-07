@@ -14,7 +14,7 @@ function setup () {
   for(let i = 0; i < 10; i++) {
     logos[i] = {
       x: random(window.innerWidth),
-      y: random(-1000,-10)  + (window.innerWidth/1.5)
+      y: random(-1000 + (window.innerHeight/1.5),-10)
     }
   }
 }
@@ -30,7 +30,7 @@ function draw () {
     logos.splice(i,1);
     logos.push({
       x: random(window.innerWidth),
-      y: random(-1000,-10)  + (window.innerWidth/1.5)
+      y: random(-1000 + (window.innerHeight/1.5),-10)
     });
   }
    }
