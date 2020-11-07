@@ -27,6 +27,6 @@ function draw () {
     rotate(logos[i].r);
     image(logo,logos[i].x,logos[i].y,50,50);
     logos[i].y++;
-    logos[i].r++;
+//     logos[i].r++;
   }
 }
