@@ -14,7 +14,7 @@ function setup () {
   for(let i = 0; i < (document.body.scrollHeight/50); i++) {
     logos[i] = {
       x: random(document.body.scrollHeight),
-      y: random(-500,-10)
+      y: random(Math.abs(document.body.scrollHeight/2),-10)
     }
   }
 }
@@ -30,7 +30,7 @@ function draw () {
     logos.splice(i,1);
     logos.push({
       x: random(document.body.scrollHeight),
-      y: random(-500,-10)
+      y: random(Math.abs(document.body.scrollHeight/2),-10)
     });
   }
    }
