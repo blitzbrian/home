@@ -41,8 +41,3 @@ h3 {
   text-shadow: 0px 10px 8px black;
   font-family: 'Pacifico', cursive;
 }
-
-canvas {
-  width : 100%;
-  height : 100%;
-}
