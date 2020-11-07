@@ -1,4 +1,9 @@
 let canvas;
+let logo;
+
+function preload () {
+  logo = loadImage('baliomaker.png')
+}
 
 function setup () {
   canvas = createCanvas(window.innerWidth, window.innerHeight);
@@ -7,7 +12,8 @@ function setup () {
 }
 
 function draw () {
-//   background(0,0,0,0);
-  rectMode(CENTER);
-  rect(mouseX,mouseY,50,50,25);
+  background(0,0,0,0);
+  fill(10);
+  rect(mouseX-25,mouseY-25,50,50,25);
+  image(logo,mouseX-25,mouseY-25,50,50)
 }
