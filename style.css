@@ -16,6 +16,7 @@ img {
 }
 a {
   text-decoration: none;
+  text-shadow: 0px 10px 8px black;
 }
 p {
  margin: 10px; 
