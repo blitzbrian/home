@@ -42,7 +42,7 @@ h3 {
   font-family: 'Pacifico', cursive;
 }
 
-.container {
+* {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
