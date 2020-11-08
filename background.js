@@ -15,7 +15,8 @@ function setup () {
   for(let i = 0; i < (h/50); i++) {
     logos[i] = {
       x: random(window.innerWidth),
-      y: random(0,h)
+      y: random(0,h),
+      s: random(3)
     }
   }
 }
@@ -26,12 +27,13 @@ function draw () {
     for(let i = 0; i < logos.length; i++) {
       if(logos[i].y < h) {
         image(logo,logos[i].x,logos[i].y,50,50);
-        logos[i].y++;
+        logos[i].y+=logos[i].s;
     } else {
     logos.splice(i,1);
     logos.push({
       x: random(window.innerWidth),
-      y: random(~h+1,-10)
+      y: random(~h+1,-10),
+      s: random(3)
     });
   }
    }
