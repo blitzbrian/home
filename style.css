@@ -41,3 +41,10 @@ h3 {
   text-shadow: 0px 10px 8px black;
   font-family: 'Pacifico', cursive;
 }
+
+.container {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
