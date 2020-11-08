@@ -16,7 +16,7 @@ function setup () {
     logos[i] = {
       x: random(window.innerWidth),
       y: random(0,h),
-      s: random(3)
+      s: random(1,2)
     }
   }
 }
@@ -33,7 +33,7 @@ function draw () {
     logos.push({
       x: random(window.innerWidth),
       y: random(~h+1,-10),
-      s: random(3)
+      s: random(1,2)
     });
   }
    }
