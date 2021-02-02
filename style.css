@@ -42,7 +42,7 @@ h3 {
   font-family: 'Pacifico', cursive;
 }
 
-img {
+.pixel {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
