@@ -4,7 +4,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow: auto;
   text-align: center;
-  overflow: hidden;
+  overflow: auto;
 }
 
 img { 
