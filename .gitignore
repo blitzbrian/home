@@ -1,0 +1,5 @@
+node_modules
+.pm2
+.snowpack/.snowpack/types
+.firebase
+.glitch-assets
