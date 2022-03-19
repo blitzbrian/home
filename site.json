@@ -1,0 +1,37 @@
+{
+  "games": [
+    {
+      "name": "Bursted Balloons",
+      "url": "https://pages.dazer.ga/Bursted-Balloons",
+      "img": "https://cdn.glitch.global/36e06447-ccde-4a72-8a0d-11b53cb0d749/BurstedBalloons.png?v=1647446980394",
+      "pixelArt": true
+    },
+    {
+      "name": "Reverse Balls",
+      "url": "https://pages.dazerstudios.ga/Reverse-Balls",
+      "img": "https://cdn.glitch.global/36e06447-ccde-4a72-8a0d-11b53cb0d749/Reverse-Balls.png?v=1647446977390",
+      "pixelArt": true
+    }
+  ],
+  "apps": [
+    {
+      "name": "Hoogeland Menu (Dutch)",
+      "url": "https://hlmenu.gq",
+      "img": "https://cdn.glitch.global/36e06447-ccde-4a72-8a0d-11b53cb0d749/screenshot.png?v=1647531898070",
+      "pixelArt": false
+    },
+    {
+      "name": "Hoogeland Pauzes (Dutch)",
+      "url": "https://hoogeland-pauzes.ml",
+      "img": "https://cdn.glitch.global/36e06447-ccde-4a72-8a0d-11b53cb0d749/Hoogeland Pauzes.png?v=1647532684517",
+      "pixelArt": false
+    },
+    {
+      "name": "Textcast",
+      "url": "https://textcast.tk",
+      "img": "https://cdn.glitch.global/36e06447-ccde-4a72-8a0d-11b53cb0d749/Textcast.png?v=1647532501707",
+      "pixelArt": false
+    }
+  ],
+  "about": "Hi, I’m @dazerstudio. <br/> I'm dutch. <br/> I'm currently working on Hoogeland-Pauzes, Hoogeland-Menu, Textcast. <br/> I’m interested in web development. <br/> I’m currently learning React.  <br/> I’m looking to collaborate on any cool projects you have.  <br/> Reach me at studiodazer@gmail.com."
+}
