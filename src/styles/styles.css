@@ -12,3 +12,7 @@ a {
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
 }
+
+.link {
+  text-decoration: underline ;
+}
