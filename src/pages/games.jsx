@@ -42,7 +42,6 @@ const Game = ({ game }) => {
       <a href={game.url}>
         <img
           src={game.img}
-          alt={game.name}
           className={game.pixelArt ? "pixel" : null}
           style={{
             marginTop: "10px",
