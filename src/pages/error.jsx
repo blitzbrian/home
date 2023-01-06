@@ -4,7 +4,7 @@ import { Box, Typography } from "@mui/material";
 
 export default function Error() {
   useEffect(() => {
-    document.title = "Error";
+    document.title = "404";
   }, []);
   return (
     <>
