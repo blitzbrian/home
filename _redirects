@@ -1,1 +1,2 @@
-/* /build/index.html 200
+/build/* /build/index.html 200
+/* /build/:splat 200
