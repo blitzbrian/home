@@ -4,7 +4,7 @@ import { Box, Typography } from "@mui/material";
 
 export default function Error() {
   useEffect(() => {
-    document.title = "Error";
+    document.title = "404";
   }, []);
   return (
     <>
@@ -17,9 +17,8 @@ export default function Error() {
         }}
       >
         <Typography variant="h3" sx={{ color: "#e2e2e2" }}>
-          <Link to="/">Dazerstudios</Link>
+          <Link to="/">Dazerstudios</Link> 404
         </Typography>
-        <Typography sx={{ color: "#e2e2e2" }}>404: Error not found.</Typography>
       </Box>
     </>
   );

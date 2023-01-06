@@ -42,7 +42,6 @@ const App = ({ app }) => {
       <a href={app.url}>
         <img
           src={app.img}
-          alt={app.name}
           className={app.pixelArt ? "pixel" : null}
           style={{
             marginTop: "10px",
