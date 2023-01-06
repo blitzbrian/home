@@ -1,5 +1,2 @@
-/ /build/index.html 200
-/games /build/index.html 200
-/apps /build/index.html 200
-/about /build/index.html 200
-/* /build/:splat 200
+
+/* /index.html 200
