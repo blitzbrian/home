@@ -3,13 +3,13 @@
     {
       "name": "Bursted Balloons",
       "url": "https://pages.dazerstudios.ga/Bursted-Balloons",
-      "img": "https://dazerstudios.ga/Bursted-Balloons",
+      "img": "https://dazerstudios.ga/images/Bursted-Balloons.png",
       "pixelArt": true
     },
     {
       "name": "Reverse Balls",
       "url": "https://pages.dazerstudios.ga/Reverse-Balls",
-      "img": "https://dazerstudios.ga/Reverse-Balls.png",
+      "img": "https://dazerstudios.ga/images/Reverse-Balls.png",
       "pixelArt": true
     }
   ],
@@ -17,7 +17,13 @@
     {
       "name": "Textcast",
       "url": "https://textcast.tk",
-      "img": "https://dazerstudios.ga/Textcast.png",
+      "img": "https://dazerstudios.ga/images/Textcast.png",
+      "pixelArt": false
+    },
+    {
+      "name": "Code on Text (C.O.T.)",
+      "url": "https://pages.dazerstudios.ga/C.O.T./",
+      "img": "",
       "pixelArt": false
     }
   ],
